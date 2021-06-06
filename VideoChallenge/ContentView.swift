@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+    
+        let url = URL(string: <#T##String#>)
+        
+        
+VideoPlayer(player: AVPlayer(playerItem: <#T##AVPlayerItem?#>))
     }
 }
 
